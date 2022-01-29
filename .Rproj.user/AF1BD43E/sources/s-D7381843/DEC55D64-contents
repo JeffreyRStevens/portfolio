@@ -1,0 +1,7 @@
+library(hexSticker)
+sticker("dsvr_logo.png", package="dsvr2021",
+        p_size = 28,
+        s_x = 1, s_y = 0.8, s_width = 0.5,
+        h_color = "#4c566aff", h_fill = "#5e81acff", l_alpha = 0.5,
+        filename="dsvr2021_hex.png")
+

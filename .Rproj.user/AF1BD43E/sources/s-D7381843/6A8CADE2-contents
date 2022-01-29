@@ -1,0 +1,215 @@
+head:
+  title: "Jeff Stevens' Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Jeff Stevens."
+  subtitle: "Data Science and Decision Making"
+  description: "I am a Susan J. Rosowski Associate Professor in the Department of Psychology and the Center for Brain, Biology & Behavior at the University of Nebraska-Lincoln, where I direct the <a target='_blank' href='https://decisionslab.unl.edu'>Adaptive Decision Making Lab</a>."
+  # image:
+  #   x: "img/showcase/data-science.gif"
+  #   _2x: "img/showcase/data-science.gif"
+  # imageMobile:
+  #   x: "img/showcase/data-science.gif"
+  #   _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Jeff"
+    URL: "mailto:jeffrey.r.stevens@protonmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/jeffreyrstevens/"
+
+    - icon: "github"
+      URL: "https://github.com/JeffreyRStevens"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/JeffStevensADML"
+
+    - icon: "orcid"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I love training the next generation of data scientists.</strong> 
+    As a professor, I have trained hundreds of undergraduates, dozens of graduate students
+    and even several other faculty in how to think about, analyze, visualize, and
+    report their data. 
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> uses data science to understand decision making 
+    by integrates biology, psychology, computer science, neuroscience, and economics.
+    I employ open science practices to ensure that my work is transparent, accessible, and reproducible.
+    </p>
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/jeffreyrstevens/"
+  image:
+    x: "img/who-am-i/jeff_koda.jpg"
+    _2x: "img/who-am-i/jeff_koda.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 12 years of experience using R to analyze and visualize data and Sweave/R Markdown to report my research. I teach courses and workshops on using R for data science and developing reproducible workflows."
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://github.com/JeffreyRStevens/cv/blob/gh-pages/resume/resume.pdf"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "View My Academic CV"
+    URL: "https://jeffreyrstevens.github.io/cv/"
+
+  items:
+    - title: "Associate Professor"
+      company: "University of Nebraska-Lincoln"
+      duration: "Aug 2017 - present"
+
+    - title: "Assistant Professor"
+      company: "University of Nebraska-Lincoln"
+      duration: "Aug 2011 - Jul 2017"
+
+    - title: "Research Scientist"
+      company: "Max Planck Institute for Human Development"
+      duration: "Jun 2006 - Jun 2011"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Minnesota"
+      year: "1997-2002"
+      degree: "Ph.D. in Ecology, Evolution, and Behavior"
+
+    - university: "Baylor University"
+      year: "1992-1996"
+      degree: "B.S. in Biology and Environmental Studies"
+      
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Data Science and Visualization in R"
+      description: "This course introduces students to the fundamental concepts and methods used in the R statistical software package to prepare, visualize, and disseminate data."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "GitHub repository"
+        URL: "https://github.com/JeffreyRStevens/dsvr2021/"
+      image:
+        x: "img/works/dsvr2021_hex.png"
+        _2x: "img/works/dsvr2021_hex.png"
+      is_even: true
+
+    - title: "excluder"
+      description: "This R package facilitates checking for, marking, and excluding rows of data frames for common exclusion criteria found in online data surveys from Qualtrics."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Package website"
+        URL: "https://docs.ropensci.org/excluder/"
+      image:
+        x: "img/works/excluder_hex.png"
+        _2x: "img/works/excluder_hex.png"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Anonymous"
+      position: "Data Science and Visualization in R student"
+      content: "I can really tell that Jeff put A LOT of work into this course. He created lots of course learning materials and tools that were invaluable to learning R and about data wrangling and visualization."
+      image:
+        x: "img/testimonials/dsvr2021_hex_square.png"
+        _2x: "img/testimonials/dsvr2021_hex_square.png"
+
+    - name: "Anonymous"
+      position: "Data Science and Visualization in R student"
+      content: "Everything we do in this class is an active learning opportunity. There a ton of in class questions which really help up think about what he have already learned and what we are currently learning."
+      image:
+        x: "img/testimonials/dsvr2021_hex_square.png"
+        _2x: "img/testimonials/dsvr2021_hex_square.png"
+
+    
+    - name: "Anonymous"
+      position: "Data Science and Visualization in R student"
+      content: "It's always clear that Jeff cares about his students' well-being and learning above all else. It's always nice to see that instructors care about students and see them as whole people."
+      image:
+        x: "img/testimonials/dsvr2021_hex_square.png"
+        _2x: "img/testimonials/dsvr2021_hex_square.png"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Jeff"
+    
+  image:
+    x: "img/who-am-i/jeff.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:jeffrey.r.stevens@protonmail.com'
+    
+  email:
+    title: "Email"
+    email: '<a href="mailto:jeffrey.r.stevens@protonmail.com">jeffrey.r.stevens@protonmail.com</a>'
+
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
