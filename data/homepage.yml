@@ -194,7 +194,7 @@ contact:
     
   image:
     x: "img/who-am-i/jeff.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/jeff.jpg"
     
   button:
     icon: "icon-mail-fill"
