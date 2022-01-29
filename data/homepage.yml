@@ -38,8 +38,8 @@ about:
   title: "Who am I?"
   content: 
     <p class="lead">
-    <strong>I love training the next generation of data scientists.</strong> 
-    As a professor, I have trained hundreds of undergraduates, dozens of graduate students
+    <strong>I train the next generation of data scientists.</strong> 
+    As a professor, I have trained hundreds of undergraduates, dozens of graduate students,
     and even several other faculty in how to think about, analyze, visualize, and
     report their data. 
     </p>
@@ -155,7 +155,7 @@ client_and_work:
       image:
         x: "img/works/excluder_hex.png"
         _2x: "img/works/excluder_hex.png"
-      is_even: false
+      is_even: true
 
     
 
